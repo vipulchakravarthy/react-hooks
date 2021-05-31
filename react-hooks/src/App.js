@@ -1,13 +1,16 @@
 import './App.css';
 import React, { useState } from 'react';
 
+// import Posts from './Posts';
+import ResizeComponent from './ResizeComponent';
+
 function App() {
   //normal version of useState
   const [count, setCount] = useState(0);
 
   //function version of useState
   const [value, setValue] = useState(() => {
-    console.log("function version of useState")
+    // console.log("function version of useState")
     return "vip";
   });
 
@@ -27,6 +30,7 @@ function App() {
       <span>{count}</span>
       <button onClick={increment}>+</button>
       {value}
+      <ResizeComponent />
     </>
   );
 }
