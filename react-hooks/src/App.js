@@ -2,7 +2,8 @@ import './App.css';
 import React, { useState } from 'react';
 
 // import Posts from './Posts';
-import ResizeComponent from './ResizeComponent';
+// import ResizeComponent from './ResizeComponent';
+import UseMemoExample from './UseMemoExample';
 
 function App() {
   //normal version of useState
@@ -30,7 +31,8 @@ function App() {
       <span>{count}</span>
       <button onClick={increment}>+</button>
       {value}
-      <ResizeComponent />
+      {/* <ResizeComponent /> */}
+      <UseMemoExample />
     </>
   );
 }
