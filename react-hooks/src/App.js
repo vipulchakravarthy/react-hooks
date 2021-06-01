@@ -1,6 +1,8 @@
 import './App.css';
 import React, { useReducer } from 'react';
 
+import UseCallBackExample from './UseCallBackExample';
+
 function reducer(state, action) {
 
   switch (action.type) {
@@ -38,7 +40,7 @@ function App() {
       <button onClick={decrement}>-</button>
       <span>{state.count}</span>
       <button onClick={increment}>+</button>
-
+      <UseCallBackExample />
     </>
   );
 }
