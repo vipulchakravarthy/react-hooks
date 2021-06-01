@@ -4,7 +4,8 @@ import React, { useState } from 'react';
 // import Posts from './Posts';
 // import ResizeComponent from './ResizeComponent';
 // import UseMemoExample from './UseMemoExample';
-import UseRefExample from './UseRefExample';
+// import UseRefExample from './UseRefExample';
+import ContextExample from './ContextExample';
 
 function App() {
   //normal version of useState
@@ -34,7 +35,8 @@ function App() {
       {value}
       {/* <ResizeComponent /> */}
       {/* <UseMemoExample /> */}
-      <UseRefExample />
+      {/* <UseRefExample /> */}
+      <ContextExample />
     </>
   );
 }
